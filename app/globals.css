@@ -15,7 +15,7 @@
   --primary-foreground: oklch(0.9838 0.0035 247.86);
   --secondary: oklch(0.975 0.0207 179.25);
   --secondary-foreground: oklch(0.4146 0.0763 170.9);
-    /* Updated Primary color palette */
+  /* Updated Primary color palette */
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
@@ -125,9 +125,8 @@
 }
 
 @utility container {
-
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: 4rem;
   @media (width >= --theme(--breakpoint-sm)) {
     max-width: none;
   }
